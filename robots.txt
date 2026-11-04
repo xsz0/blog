@@ -11,5 +11,5 @@ Disallow: /fonts/
 Disallow: /vendors/
 Disallow: /fancybox/
 
-Sitemap: https://hansonzhao007.github.io/blog/sitemap.xml
-Sitemap: https://hansonzhao007.github.io/blog/baidusitemap.xml
+Sitemap: https://xsz0.com/blog/sitemap.xml
+Sitemap: https://xsz0.com/blog/baidusitemap.xml

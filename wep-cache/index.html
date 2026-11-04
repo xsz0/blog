@@ -110,31 +110,31 @@
 <meta name="keywords" content="memory">
 <meta property="og:type" content="article">
 <meta property="og:title" content="【WEP】CPU Caching">
-<meta property="og:url" content="https:&#x2F;&#x2F;hansonzhao007.github.io&#x2F;blog&#x2F;wep-cache&#x2F;index.html">
+<meta property="og:url" content="https:&#x2F;&#x2F;xsz0.com&#x2F;blog&#x2F;wep-cache&#x2F;index.html">
 <meta property="og:site_name" content="Infinite">
 <meta property="og:description" content="hierarchyProgram code and data has temporal and spatial locality. This means that, over short periods of time, there is a good chance that the same code or data gets reused. For code this means that t">
 <meta property="og:locale" content="en">
-<meta property="og:image" content="https:&#x2F;&#x2F;hansonzhao007.github.io&#x2F;blog&#x2F;wep-cache&#x2F;introduction.png">
-<meta property="og:image" content="https:&#x2F;&#x2F;hansonzhao007.github.io&#x2F;blog&#x2F;wep-cache&#x2F;Selection_001.png">
-<meta property="og:image" content="https:&#x2F;&#x2F;hansonzhao007.github.io&#x2F;blog&#x2F;wep-cache&#x2F;Selection_002.png">
-<meta property="og:image" content="https:&#x2F;&#x2F;hansonzhao007.github.io&#x2F;blog&#x2F;wep-cache&#x2F;Selection_003.png">
-<meta property="og:image" content="https:&#x2F;&#x2F;hansonzhao007.github.io&#x2F;blog&#x2F;wep-cache&#x2F;mac_cpu_cache_info.png">
-<meta property="og:image" content="https:&#x2F;&#x2F;hansonzhao007.github.io&#x2F;blog&#x2F;wep-cache&#x2F;Selection_004.png">
-<meta property="og:image" content="https:&#x2F;&#x2F;hansonzhao007.github.io&#x2F;blog&#x2F;wep-cache&#x2F;cache_cost.png">
-<meta property="og:image" content="https:&#x2F;&#x2F;hansonzhao007.github.io&#x2F;blog&#x2F;wep-cache&#x2F;Selection_005.png">
-<meta property="og:image" content="https:&#x2F;&#x2F;hansonzhao007.github.io&#x2F;blog&#x2F;wep-cache&#x2F;fully.png">
-<meta property="og:image" content="https:&#x2F;&#x2F;hansonzhao007.github.io&#x2F;blog&#x2F;wep-cache&#x2F;Selection_006.png">
-<meta property="og:image" content="https:&#x2F;&#x2F;hansonzhao007.github.io&#x2F;blog&#x2F;wep-cache&#x2F;direct.png">
-<meta property="og:image" content="https:&#x2F;&#x2F;hansonzhao007.github.io&#x2F;blog&#x2F;wep-cache&#x2F;Selection_007.png">
-<meta property="og:image" content="https:&#x2F;&#x2F;hansonzhao007.github.io&#x2F;blog&#x2F;wep-cache&#x2F;set_associative.png">
-<meta property="og:image" content="https:&#x2F;&#x2F;hansonzhao007.github.io&#x2F;blog&#x2F;wep-cache&#x2F;Selection_008.png">
-<meta property="og:image" content="https:&#x2F;&#x2F;hansonzhao007.github.io&#x2F;blog&#x2F;wep-cache&#x2F;Selection_010.png">
-<meta property="og:image" content="https:&#x2F;&#x2F;hansonzhao007.github.io&#x2F;blog&#x2F;wep-cache&#x2F;Selection_011.png">
-<meta property="og:image" content="https:&#x2F;&#x2F;hansonzhao007.github.io&#x2F;blog&#x2F;wep-cache&#x2F;Selection_012.png">
-<meta property="og:image" content="https:&#x2F;&#x2F;hansonzhao007.github.io&#x2F;blog&#x2F;wep-cache&#x2F;Selection_013.png">
+<meta property="og:image" content="https:&#x2F;&#x2F;xsz0.com&#x2F;blog&#x2F;wep-cache&#x2F;introduction.png">
+<meta property="og:image" content="https:&#x2F;&#x2F;xsz0.com&#x2F;blog&#x2F;wep-cache&#x2F;Selection_001.png">
+<meta property="og:image" content="https:&#x2F;&#x2F;xsz0.com&#x2F;blog&#x2F;wep-cache&#x2F;Selection_002.png">
+<meta property="og:image" content="https:&#x2F;&#x2F;xsz0.com&#x2F;blog&#x2F;wep-cache&#x2F;Selection_003.png">
+<meta property="og:image" content="https:&#x2F;&#x2F;xsz0.com&#x2F;blog&#x2F;wep-cache&#x2F;mac_cpu_cache_info.png">
+<meta property="og:image" content="https:&#x2F;&#x2F;xsz0.com&#x2F;blog&#x2F;wep-cache&#x2F;Selection_004.png">
+<meta property="og:image" content="https:&#x2F;&#x2F;xsz0.com&#x2F;blog&#x2F;wep-cache&#x2F;cache_cost.png">
+<meta property="og:image" content="https:&#x2F;&#x2F;xsz0.com&#x2F;blog&#x2F;wep-cache&#x2F;Selection_005.png">
+<meta property="og:image" content="https:&#x2F;&#x2F;xsz0.com&#x2F;blog&#x2F;wep-cache&#x2F;fully.png">
+<meta property="og:image" content="https:&#x2F;&#x2F;xsz0.com&#x2F;blog&#x2F;wep-cache&#x2F;Selection_006.png">
+<meta property="og:image" content="https:&#x2F;&#x2F;xsz0.com&#x2F;blog&#x2F;wep-cache&#x2F;direct.png">
+<meta property="og:image" content="https:&#x2F;&#x2F;xsz0.com&#x2F;blog&#x2F;wep-cache&#x2F;Selection_007.png">
+<meta property="og:image" content="https:&#x2F;&#x2F;xsz0.com&#x2F;blog&#x2F;wep-cache&#x2F;set_associative.png">
+<meta property="og:image" content="https:&#x2F;&#x2F;xsz0.com&#x2F;blog&#x2F;wep-cache&#x2F;Selection_008.png">
+<meta property="og:image" content="https:&#x2F;&#x2F;xsz0.com&#x2F;blog&#x2F;wep-cache&#x2F;Selection_010.png">
+<meta property="og:image" content="https:&#x2F;&#x2F;xsz0.com&#x2F;blog&#x2F;wep-cache&#x2F;Selection_011.png">
+<meta property="og:image" content="https:&#x2F;&#x2F;xsz0.com&#x2F;blog&#x2F;wep-cache&#x2F;Selection_012.png">
+<meta property="og:image" content="https:&#x2F;&#x2F;xsz0.com&#x2F;blog&#x2F;wep-cache&#x2F;Selection_013.png">
 <meta property="og:updated_time" content="2019-11-17T04:18:02.870Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https:&#x2F;&#x2F;hansonzhao007.github.io&#x2F;blog&#x2F;wep-cache&#x2F;introduction.png">
+<meta name="twitter:image" content="https:&#x2F;&#x2F;xsz0.com&#x2F;blog&#x2F;wep-cache&#x2F;introduction.png">
 
 
 
@@ -163,7 +163,7 @@
 
 
 
-  <link rel="canonical" href="https://hansonzhao007.github.io/blog/wep-cache/"/>
+  <link rel="canonical" href="https://xsz0.com/blog/wep-cache/"/>
 
 
 
@@ -365,7 +365,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://hansonzhao007.github.io/blog/blog/wep-cache/">
+    <link itemprop="mainEntityOfPage" href="https://xsz0.com/blog/blog/wep-cache/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="XS Zhao">
@@ -587,7 +587,7 @@
   </li>
   <li class="post-copyright-link">
     <strong>Post link:</strong>
-    <a href="https://hansonzhao007.github.io/blog/wep-cache/" title="【WEP】CPU Caching">https://hansonzhao007.github.io/blog/wep-cache/</a>
+    <a href="https://xsz0.com/blog/wep-cache/" title="【WEP】CPU Caching">https://xsz0.com/blog/wep-cache/</a>
   </li>
   <li class="post-copyright-license">
     <strong>Copyright Notice: </strong>
@@ -759,7 +759,7 @@
           
             
               <span class="links-of-author-item">
-                <a href="https://github.com/hansonzhao007" target="_blank" title="GitHub">
+                <a href="https://github.com/xsz0" target="_blank" title="GitHub">
                   
                     <i class="fa fa-fw fa-github"></i>
                   
@@ -1067,7 +1067,7 @@ show_date_time();
       function renderGitment(){
         var gitment = new Gitmint({
             id: '1507692538000',
-            owner: 'hansonzhao007',
+            owner: 'xsz0',
             repo: 'blog',
             
             lang: "" || navigator.language || navigator.systemLanguage || navigator.userLanguage,

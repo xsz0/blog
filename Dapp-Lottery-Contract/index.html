@@ -110,18 +110,18 @@
 <meta name="keywords" content="ethereum,web3">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Dapp: Lottery Contract">
-<meta property="og:url" content="https:&#x2F;&#x2F;hansonzhao007.github.io&#x2F;blog&#x2F;Dapp-Lottery-Contract&#x2F;index.html">
+<meta property="og:url" content="https:&#x2F;&#x2F;xsz0.com&#x2F;blog&#x2F;Dapp-Lottery-Contract&#x2F;index.html">
 <meta property="og:site_name" content="Infinite">
 <meta property="og:description" content="Overview1234567891011Lottery Contract# VariablesName            Purposemanager:    Address of person who created the contractplayers:    Array of addresses of people who entered# FunctionName">
 <meta property="og:locale" content="en">
-<meta property="og:image" content="https:&#x2F;&#x2F;hansonzhao007.github.io&#x2F;blog&#x2F;Dapp-Lottery-Contract&#x2F;logic.png">
-<meta property="og:image" content="https:&#x2F;&#x2F;hansonzhao007.github.io&#x2F;blog&#x2F;Dapp-Lottery-Contract&#x2F;logic2.png">
-<meta property="og:image" content="https:&#x2F;&#x2F;hansonzhao007.github.io&#x2F;blog&#x2F;Dapp-Lottery-Contract&#x2F;arch.png">
-<meta property="og:image" content="https:&#x2F;&#x2F;hansonzhao007.github.io&#x2F;blog&#x2F;Dapp-Lottery-Contract&#x2F;metamask.png">
-<meta property="og:image" content="https:&#x2F;&#x2F;hansonzhao007.github.io&#x2F;blog&#x2F;Dapp-Lottery-Contract&#x2F;abi.png">
+<meta property="og:image" content="https:&#x2F;&#x2F;xsz0.com&#x2F;blog&#x2F;Dapp-Lottery-Contract&#x2F;logic.png">
+<meta property="og:image" content="https:&#x2F;&#x2F;xsz0.com&#x2F;blog&#x2F;Dapp-Lottery-Contract&#x2F;logic2.png">
+<meta property="og:image" content="https:&#x2F;&#x2F;xsz0.com&#x2F;blog&#x2F;Dapp-Lottery-Contract&#x2F;arch.png">
+<meta property="og:image" content="https:&#x2F;&#x2F;xsz0.com&#x2F;blog&#x2F;Dapp-Lottery-Contract&#x2F;metamask.png">
+<meta property="og:image" content="https:&#x2F;&#x2F;xsz0.com&#x2F;blog&#x2F;Dapp-Lottery-Contract&#x2F;abi.png">
 <meta property="og:updated_time" content="2019-11-17T04:18:02.999Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https:&#x2F;&#x2F;hansonzhao007.github.io&#x2F;blog&#x2F;Dapp-Lottery-Contract&#x2F;logic.png">
+<meta name="twitter:image" content="https:&#x2F;&#x2F;xsz0.com&#x2F;blog&#x2F;Dapp-Lottery-Contract&#x2F;logic.png">
 
 
 
@@ -150,7 +150,7 @@
 
 
 
-  <link rel="canonical" href="https://hansonzhao007.github.io/blog/Dapp-Lottery-Contract/"/>
+  <link rel="canonical" href="https://xsz0.com/blog/Dapp-Lottery-Contract/"/>
 
 
 
@@ -352,7 +352,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://hansonzhao007.github.io/blog/blog/Dapp-Lottery-Contract/">
+    <link itemprop="mainEntityOfPage" href="https://xsz0.com/blog/blog/Dapp-Lottery-Contract/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="XS Zhao">
@@ -512,7 +512,7 @@
 <figure class="highlight js"><figcaption><span>:src/lottery.js</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> web3 <span class="keyword">from</span> <span class="string">`./web3`</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> address = <span class="string">'0x2a8683527b110f5f37502CD5c7C62f574A75499A'</span>;</span><br><span class="line"><span class="keyword">const</span> abi = [&#123;</span><br><span class="line">    <span class="string">"constant"</span>: <span class="literal">true</span>,</span><br><span class="line">    <span class="string">"inputs"</span>: [],</span><br><span class="line">    <span class="string">"name"</span>: <span class="string">"manager"</span>,</span><br><span class="line">    <span class="string">"outputs"</span>: [&#123;</span><br><span class="line">        <span class="string">"name"</span>: <span class="string">""</span>,</span><br><span class="line">        <span class="string">"type"</span>: <span class="string">"address"</span></span><br><span class="line">    &#125;],</span><br><span class="line">    <span class="string">"payable"</span>: <span class="literal">false</span>,</span><br><span class="line">    <span class="string">"stateMutability"</span>: <span class="string">"view"</span>,</span><br><span class="line">    <span class="string">"type"</span>: <span class="string">"function"</span></span><br><span class="line">&#125;, &#123;</span><br><span class="line">    <span class="string">"constant"</span>: <span class="literal">false</span>,</span><br><span class="line">    <span class="string">"inputs"</span>: [],</span><br><span class="line">    <span class="string">"name"</span>: <span class="string">"pickWinner"</span>,</span><br><span class="line">    <span class="string">"outputs"</span>: [],</span><br><span class="line">    <span class="string">"payable"</span>: <span class="literal">false</span>,</span><br><span class="line">    <span class="string">"stateMutability"</span>: <span class="string">"nonpayable"</span>,</span><br><span class="line">    <span class="string">"type"</span>: <span class="string">"function"</span></span><br><span class="line">&#125;, &#123;</span><br><span class="line">    <span class="string">"constant"</span>: <span class="literal">true</span>,</span><br><span class="line">    <span class="string">"inputs"</span>: [],</span><br><span class="line">    <span class="string">"name"</span>: <span class="string">"random"</span>,</span><br><span class="line">    <span class="string">"outputs"</span>: [&#123;</span><br><span class="line">        <span class="string">"name"</span>: <span class="string">""</span>,</span><br><span class="line">        <span class="string">"type"</span>: <span class="string">"uint256"</span></span><br><span class="line">    &#125;],</span><br><span class="line">    <span class="string">"payable"</span>: <span class="literal">false</span>,</span><br><span class="line">    <span class="string">"stateMutability"</span>: <span class="string">"view"</span>,</span><br><span class="line">    <span class="string">"type"</span>: <span class="string">"function"</span></span><br><span class="line">&#125;, &#123;</span><br><span class="line">    <span class="string">"constant"</span>: <span class="literal">true</span>,</span><br><span class="line">    <span class="string">"inputs"</span>: [],</span><br><span class="line">    <span class="string">"name"</span>: <span class="string">"getPlayers"</span>,</span><br><span class="line">    <span class="string">"outputs"</span>: [&#123;</span><br><span class="line">        <span class="string">"name"</span>: <span class="string">""</span>,</span><br><span class="line">        <span class="string">"type"</span>: <span class="string">"address[]"</span></span><br><span class="line">    &#125;],</span><br><span class="line">    <span class="string">"payable"</span>: <span class="literal">false</span>,</span><br><span class="line">    <span class="string">"stateMutability"</span>: <span class="string">"view"</span>,</span><br><span class="line">    <span class="string">"type"</span>: <span class="string">"function"</span></span><br><span class="line">&#125;, &#123;</span><br><span class="line">    <span class="string">"constant"</span>: <span class="literal">false</span>,</span><br><span class="line">    <span class="string">"inputs"</span>: [],</span><br><span class="line">    <span class="string">"name"</span>: <span class="string">"enter"</span>,</span><br><span class="line">    <span class="string">"outputs"</span>: [],</span><br><span class="line">    <span class="string">"payable"</span>: <span class="literal">true</span>,</span><br><span class="line">    <span class="string">"stateMutability"</span>: <span class="string">"payable"</span>,</span><br><span class="line">    <span class="string">"type"</span>: <span class="string">"function"</span></span><br><span class="line">&#125;, &#123;</span><br><span class="line">    <span class="string">"constant"</span>: <span class="literal">true</span>,</span><br><span class="line">    <span class="string">"inputs"</span>: [&#123;</span><br><span class="line">        <span class="string">"name"</span>: <span class="string">""</span>,</span><br><span class="line">        <span class="string">"type"</span>: <span class="string">"uint256"</span></span><br><span class="line">    &#125;],</span><br><span class="line">    <span class="string">"name"</span>: <span class="string">"players"</span>,</span><br><span class="line">    <span class="string">"outputs"</span>: [&#123;</span><br><span class="line">        <span class="string">"name"</span>: <span class="string">""</span>,</span><br><span class="line">        <span class="string">"type"</span>: <span class="string">"address"</span></span><br><span class="line">    &#125;],</span><br><span class="line">    <span class="string">"payable"</span>: <span class="literal">false</span>,</span><br><span class="line">    <span class="string">"stateMutability"</span>: <span class="string">"view"</span>,</span><br><span class="line">    <span class="string">"type"</span>: <span class="string">"function"</span></span><br><span class="line">&#125;, &#123;</span><br><span class="line">    <span class="string">"inputs"</span>: [],</span><br><span class="line">    <span class="string">"payable"</span>: <span class="literal">false</span>,</span><br><span class="line">    <span class="string">"stateMutability"</span>: <span class="string">"nonpayable"</span>,</span><br><span class="line">    <span class="string">"type"</span>: <span class="string">"constructor"</span></span><br><span class="line">&#125;];</span><br><span class="line"></span><br><span class="line"><span class="keyword">export</span> <span class="keyword">default</span> <span class="keyword">new</span> web3.eth.Contract(abi, address);</span><br></pre></td></tr></table></figure>
 
 <p><img src="abi.png" alt="abi"></p>
-<h2 id="Rendering-Contract-Data"><a href="#Rendering-Contract-Data" class="headerlink" title="Rendering Contract Data"></a>Rendering Contract Data</h2><p>Modify <code>src/App.js</code> code. See source code here:<br><a href="https://github.com/hansonzhao007/lottery/blob/master/src/App.js" target="_blank" rel="noopener">https://github.com/hansonzhao007/lottery/blob/master/src/App.js</a></p>
+<h2 id="Rendering-Contract-Data"><a href="#Rendering-Contract-Data" class="headerlink" title="Rendering Contract Data"></a>Rendering Contract Data</h2><p>Modify <code>src/App.js</code> code. See source code here:<br><a href="https://github.com/xsz0/lottery/blob/master/src/App.js" target="_blank" rel="noopener">https://github.com/xsz0/lottery/blob/master/src/App.js</a></p>
 <h2 id="Deploying-React-app-to-GitHub-Pages"><a href="#Deploying-React-app-to-GitHub-Pages" class="headerlink" title="Deploying React app to GitHub Pages"></a>Deploying React app to GitHub Pages</h2><p>create a new repository, and connect your project.</p>
 <p>install <code>gh-pages</code> package</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install gh-pages --save-dev</span><br></pre></td></tr></table></figure>
@@ -523,7 +523,7 @@
 <p>Generate a production build of your app, and deploy it to GitHub Pages</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm run deploy</span><br></pre></td></tr></table></figure>
 
-<p>You can see the example on <a href="http://xszhao.science/lottery" target="_blank" rel="noopener">http://xszhao.science/lottery</a></p>
+<p>You can see the example on <a href="https://xsz0.com/lottery" target="_blank" rel="noopener">https://xsz0.com/lottery</a></p>
 <h1 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h1><p><a href="https://github.com/gitname/react-gh-pages" target="_blank" rel="noopener">Deploying a React App* to GitHub Pages</a></p>
 
       
@@ -555,7 +555,7 @@
   </li>
   <li class="post-copyright-link">
     <strong>Post link:</strong>
-    <a href="https://hansonzhao007.github.io/blog/Dapp-Lottery-Contract/" title="Dapp: Lottery Contract">https://hansonzhao007.github.io/blog/Dapp-Lottery-Contract/</a>
+    <a href="https://xsz0.com/blog/Dapp-Lottery-Contract/" title="Dapp: Lottery Contract">https://xsz0.com/blog/Dapp-Lottery-Contract/</a>
   </li>
   <li class="post-copyright-license">
     <strong>Copyright Notice: </strong>
@@ -729,7 +729,7 @@
           
             
               <span class="links-of-author-item">
-                <a href="https://github.com/hansonzhao007" target="_blank" title="GitHub">
+                <a href="https://github.com/xsz0" target="_blank" title="GitHub">
                   
                     <i class="fa fa-fw fa-github"></i>
                   
@@ -1037,7 +1037,7 @@ show_date_time();
       function renderGitment(){
         var gitment = new Gitmint({
             id: '1541880501000',
-            owner: 'hansonzhao007',
+            owner: 'xsz0',
             repo: 'blog',
             
             lang: "" || navigator.language || navigator.systemLanguage || navigator.userLanguage,
