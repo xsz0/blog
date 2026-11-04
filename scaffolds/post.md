@@ -10,5 +10,5 @@ description:
 categories: ['database']
 tags:
   -
-image: "http://hansonzhao007.github.io/blog/images/infinite4.gif"
+image: "https://xsz0.com/blog/images/infinite4.gif"
 ---

@@ -11,7 +11,7 @@ tags:
   - database
   - nosql
 
-image: 'http://hansonzhao007.github.io/blog/images/infinite1.gif'
+image: 'https://xsz0.com/blog/images/infinite1.gif'
 abbrlink: 31235
 date: 2018-06-24 13:58:34
 subtitle:

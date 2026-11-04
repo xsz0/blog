@@ -19,7 +19,7 @@ algolia:
   
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://hansonzhao007.github.io/blog
+url: https://xsz0.com/blog
 root: /blog/
 # permalink: :year/:month/:day/:title/
 permalink: :title/
@@ -91,5 +91,5 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:hansonzhao007/blog.git
+  repo: git@github.com:xsz0/blog.git
   branch: gh-pages

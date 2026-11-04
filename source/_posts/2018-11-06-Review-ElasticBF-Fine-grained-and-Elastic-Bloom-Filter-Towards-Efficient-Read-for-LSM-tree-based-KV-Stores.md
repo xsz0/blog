@@ -10,7 +10,7 @@ categories:
 tags:
   - kv
   - LSM tree
-image: 'http://hansonzhao007.github.io/blog/images/infinite6.gif'
+image: 'https://xsz0.com/blog/images/infinite6.gif'
 abbrlink: 50863
 date: 2018-11-06 13:16:42
 subtitle:

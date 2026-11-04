@@ -103,7 +103,7 @@ scheme: Muse
 # Key is the link label showing to end users.
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
 social:
-  GitHub: https://github.com/hansonzhao007
+  GitHub: https://github.com/xsz0
   Facebook: https://www.facebook.com/hansonzhao007
   Instagram: https://www.instagram.com/hansonzhao007
   E-Mail: mailto:xingshengzhao@gmail.com

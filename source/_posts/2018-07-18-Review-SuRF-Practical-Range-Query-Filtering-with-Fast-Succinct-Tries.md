@@ -8,7 +8,7 @@ categories:
 tags:
   - leveldb
   - bloomfilter
-image: 'http://hansonzhao007.github.io/blog/images/infinite4.gif'
+image: 'https://xsz0.com/blog/images/infinite4.gif'
 abbrlink: 47833
 date: 2018-07-18 09:54:00
 subtitle:

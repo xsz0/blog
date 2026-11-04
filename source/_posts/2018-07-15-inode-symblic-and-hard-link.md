@@ -7,7 +7,7 @@ categories:
   - database
 tags:
   - null
-image: 'http://hansonzhao007.github.io/blog/images/infinite4.gif'
+image: 'https://xsz0.com/blog/images/infinite4.gif'
 abbrlink: 1111
 date: 2018-07-15 14:39:32
 subtitle:

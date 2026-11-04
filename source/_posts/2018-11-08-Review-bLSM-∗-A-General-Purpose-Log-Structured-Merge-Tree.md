@@ -8,7 +8,7 @@ categories:
 tags:
   - LSM tree
   - kv
-image: 'http://hansonzhao007.github.io/blog/images/infinite12.gif'
+image: 'https://xsz0.com/blog/images/infinite12.gif'
 abbrlink: 4011
 date: 2018-11-08 09:14:52
 subtitle:

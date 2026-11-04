@@ -4,7 +4,7 @@ categories:
   - database
 tags:
   - MongoDB
-image: 'http://hansonzhao007.github.io/blog/images/infinite1.gif'
+image: 'https://xsz0.com/blog/images/infinite1.gif'
 abbrlink: 24521
 date: 2018-02-15 10:46:46
 ---

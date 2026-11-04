@@ -9,7 +9,7 @@ categories:
   - review
 tags:
   - index
-image: 'http://hansonzhao007.github.io/blog/images/infinite2.gif'
+image: 'https://xsz0.com/blog/images/infinite2.gif'
 abbrlink: 60274
 date: 2018-06-24 19:34:58
 subtitle:

@@ -9,7 +9,7 @@ categories:
   - review
 tags:
   - google map
-image: 'http://hansonzhao007.github.io/blog/images/infinite3.gif'
+image: 'https://xsz0.com/blog/images/infinite3.gif'
 abbrlink: 50023
 date: 2018-03-07 10:25:23
 subtitle:

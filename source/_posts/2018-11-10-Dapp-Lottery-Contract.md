@@ -8,7 +8,7 @@ categories:
 tags:
   - web3
   - ethereum
-image: 'http://hansonzhao007.github.io/blog/images/infinite4.gif'
+image: 'https://xsz0.com/blog/images/infinite4.gif'
 abbrlink: 41445
 date: 2018-11-10 14:08:21
 subtitle:
@@ -398,7 +398,7 @@ export default new web3.eth.Contract(abi, address);
 ## Rendering Contract Data
 
 Modify `src/App.js` code. See source code here:
-https://github.com/hansonzhao007/lottery/blob/master/src/App.js
+https://github.com/xsz0/lottery/blob/master/src/App.js
 
 
 ## Deploying React app to GitHub Pages
@@ -429,7 +429,7 @@ Generate a production build of your app, and deploy it to GitHub Pages
 npm run deploy
 ```
 
-You can see the example on http://xszhao.science/lottery
+You can see the example on https://xsz0.com/lottery
 
 # Reference
 

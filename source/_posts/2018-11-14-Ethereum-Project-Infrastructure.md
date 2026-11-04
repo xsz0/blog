@@ -8,7 +8,7 @@ categories:
 tags:
   - web3
   - ethereum
-image: 'http://hansonzhao007.github.io/blog/images/infinite4.gif'
+image: 'https://xsz0.com/blog/images/infinite4.gif'
 abbrlink: 30972
 date: 2018-11-14 16:42:55
 subtitle:

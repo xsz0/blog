@@ -7,7 +7,7 @@ categories:
   - linux
 tags:
   - make
-image: 'http://hansonzhao007.github.io/blog/images/infinite6.gif'
+image: 'https://xsz0.com/blog/images/infinite6.gif'
 abbrlink: 2914
 date: 2018-04-03 10:30:57
 subtitle:
