@@ -3164,19 +3164,19 @@ _   底线
   <entry>
     <title>LCR meter</title>
     <url>/blog/LCR-meter/</url>
-    <content><![CDATA[<h1 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h1><p>This project is about the ARM, CPLD, and DDS technology. Based on the LCR meter theory, the whole system consists of a signal source module, voltage &amp; current detection module, the digital process module, etc. </p>
-<p>The signal source module provides DC to 500K Hz sine wave, range from 10mV to 2V along with 10mA to 1A circuit source, based on DDS technology using CPLD controller. </p>
-<p>Phase detection circuit calculates the phase difference of two sine wave using multi-slope analog-to-digital technology. Digital processing uses S3C6410 chip to achieve digital filter, vector decomposition. </p>
-<p>I am in charge of the circuit design and CLPD program design, C++ interface design.</p>
+    <content><![CDATA[<h1 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h1><p>This was a hardware project that brought together ARM, a CPLD, and DDS (Direct Digital Synthesis). It&#39;s a working LCR meter built on the standard measurement theory: drive the part under test with a known sine wave, measure the voltage across it and the current through it, then work out the impedance from the amplitude and phase. The system breaks down into a few modules: a signal source, voltage and current detection, and digital processing.</p>
+<p><strong>Signal source.</strong> A CPLD drives a DDS core that generates sine waves from DC up to 500 kHz. The output covers 10 mV to 2 V in voltage mode and 10 mA to 1 A in current-source mode.</p>
+<p><strong>Phase detection.</strong> To get the phase difference between the two sine waves (voltage and current), the circuit uses a multi-slope analog-to-digital conversion technique.</p>
+<p><strong>Digital processing.</strong> An S3C6410 (ARM11) handles the digital filtering and vector decomposition that turn raw measurements into L, C, and R values.</p>
+<p>My part was the circuit design, the CPLD logic, and the C++ user interface.</p>
 <h1 id="Overview"><a href="#Overview" class="headerlink" title="Overview"></a>Overview</h1><p><img src="overview.jpg" alt=""></p>
 <ul>
-<li><code>CPLD Part</code>：1. Communication Interface; 2. Multi-Slope ADC controler; 3. SPI interface; 4.DDS(Direct Digital Systhesizer) module;</li>
-<li><code>Analog Circuit</code>: 1. Measuring circuit design; 2. Amplifier stability analyse; 3. SI analyse;</li>
-<li><code>Coding</code>: designed Measure class, using virtual class and virtual function.</li>
+<li><code>CPLD</code>: communication interface, multi-slope ADC controller, SPI interface, and the DDS module.</li>
+<li><code>Analog circuit</code>: measurement circuit design, amplifier stability analysis, and signal integrity (SI) analysis.</li>
+<li><code>Software</code>: a <code>Measure</code> class hierarchy built on abstract base classes and virtual functions, so each measurement mode plugs in cleanly.</li>
 </ul>
-<h1 id="FPGA-architechture"><a href="#FPGA-architechture" class="headerlink" title="FPGA architechture"></a>FPGA architechture</h1><p><img src="CPLD.png" alt=""></p>
-<h1 id="Prototype"><a href="#Prototype" class="headerlink" title="Prototype"></a>Prototype</h1><p><img src="LCR.jpg" alt=""></p>
-]]></content>
+<h1 id="CPLD-Architecture"><a href="#CPLD-Architecture" class="headerlink" title="CPLD Architecture"></a>CPLD Architecture</h1><p><img src="CPLD.png" alt=""></p>
+<h1 id="Prototype"><a href="#Prototype" class="headerlink" title="Prototype"></a>Prototype</h1><p><img src="LCR.jpg" alt=""></p>]]></content>
       <categories>
         <category>project</category>
       </categories>
