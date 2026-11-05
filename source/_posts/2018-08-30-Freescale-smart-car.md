@@ -15,17 +15,17 @@ keywords:
 description:
 ---
 
-
 # Introduction
-The Freescale Cup, formerly known as the Smart Car Race, began in 2003 when Korea’s Hanyang University hosted 80 teams of students. Since that modest origin, the annual event has expanded throughout North America, Europe, China, India, Malaysia and Latin America, impacting more than 15,000 students at more than 500 schools.
 
-The competition requires student teams to build, program and race a model car around a track for speed, with victory going to the fastest car that completes the course without derailing. The creation of each autonomous car requires embedded software programming and basic circuit creation, using Freescale parts included in the entry kit; student-developed motor control hardware and software, to propel and steer the intelligent vehicle; and a student-developed camera interface, to navigate the vehicle through the race.
+The Freescale Cup (originally called the Smart Car Race) started in 2003 at Hanyang University in Korea with 80 student teams. It has since grown into an annual event across North America, Europe, China, India, Malaysia, and Latin America, with more than 15,000 students from over 500 schools taking part.
 
-In 2010, I became a member of the team of Southeast University, China. And in 2011, I became the team leader and won the `1st prize` of 7th Freescale Cup National University Students Car Race of Camera group.
+The idea is simple: build a small autonomous car, program it, and race it around a track. The fastest car that finishes without leaving the track wins. Every team starts from a kit of Freescale parts, then designs its own motor control hardware and software to drive and steer the car, plus a camera interface so the car can see the track and find its way around.
 
-# Car model
+I joined the Southeast University (China) team in 2010. In 2011 I took over as team leader, and we won `1st prize` in the camera group at the 7th Freescale Cup National University Students Smart Car Race.
 
-I am in charge of the circuit board design and the software programming. I designed the base algorithm to detect the roads and my team members helped me to debug the PID-control variables.
+# The Car
+
+I handled the circuit board design and the software. I wrote the core track-detection algorithm, and my teammates helped tune the PID control parameters.
 
 ![car](model.png)
 

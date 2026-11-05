@@ -17,20 +17,27 @@ description:
 
 # Introduction
 
-Accompanied by the development of automation technology, configuration technology, DCS PLC and other industrial control technology advance with each passing day, monitoring configuration software is becoming more and more widespread in the field of industrial control. To improve the productive efficiency of evaporators, and to ensure the safety of the production, this project has designed a control system.
+With automation, configuration software, DCS, PLCs, and other industrial control tech moving fast, monitoring software built on configuration platforms has become standard in industrial control. This project is a monitoring and control system for an evaporator, built to make production more efficient and keep it safe.
 
-This project uses the Siemens WinCC configuration software to develop a monitoring system, configuring the communication between the upper and the lower computer. Siemens WinCC configuration software is a user-friendly interface software, by which users can edit interface of the operation screen, monitor screen, the alarm screen, real-time trend curves, history trend curve, and print as required.
+I built it with Siemens WinCC, a configuration platform that makes it easy to put together operator screens, monitoring views, alarm screens, real-time and historical trend charts, and printable reports. WinCC runs on the host computer and talks to the PLC that drives the equipment on site.
 
-The system has real-time dynamic display and operation functions. It can monitor the production process of the falling film evaporator system, can achieve remote operation of the on-site equipment, and can show the operation status of the device. It can also draw the pressure-time curve, record the time when operators login, and export alarm records, data records and other records from the database.
+Here's what the system does:
 
-This system lowers the operator’s labor strength and improves productive efficiency via setting user permissions and alarm through a user-friendly interface.
+* Shows the falling film evaporator process live, with dynamic displays and on-screen controls.
+* Lets operators run on-site equipment remotely and see the status of each device.
+* Plots pressure over time.
+* Logs operator sign-ins.
+* Exports alarm history, data logs, and other records from the database.
+
+With user permissions, alarms, and a clean interface, it takes a lot of manual work off the operators and helps the plant run more efficiently.
 
 # Software
-This project was finished in Perth, Australia, and was used to produce condensed carrot juice.
+
+The project was done in Perth, Australia, and the system was used to produce concentrated carrot juice.
 
 ![](index.png)
 
-This project uses PID-controller to control the pressure, flow rate and temperature.
+Pressure, flow rate, and temperature are each controlled by PID loops.
 
 ![](facility.png)
 
