@@ -3145,18 +3145,24 @@ _   底线
   <entry>
     <title>A monitoring software for evaporator</title>
     <url>/blog/A-monitoring-software-for-evaporator/</url>
-    <content><![CDATA[<h1 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h1><p>Accompanied by the development of automation technology, configuration technology, DCS PLC and other industrial control technology advance with each passing day, monitoring configuration software is becoming more and more widespread in the field of industrial control. To improve the productive efficiency of evaporators, and to ensure the safety of the production, this project has designed a control system.</p>
-<p>This project uses the Siemens WinCC configuration software to develop a monitoring system, configuring the communication between the upper and the lower computer. Siemens WinCC configuration software is a user-friendly interface software, by which users can edit interface of the operation screen, monitor screen, the alarm screen, real-time trend curves, history trend curve, and print as required.</p>
-<p>The system has real-time dynamic display and operation functions. It can monitor the production process of the falling film evaporator system, can achieve remote operation of the on-site equipment, and can show the operation status of the device. It can also draw the pressure-time curve, record the time when operators login, and export alarm records, data records and other records from the database.</p>
-<p>This system lowers the operator’s labor strength and improves productive efficiency via setting user permissions and alarm through a user-friendly interface.</p>
-<h1 id="Software"><a href="#Software" class="headerlink" title="Software"></a>Software</h1><p>This project was finished in Perth, Australia, and was used to produce condensed carrot juice.</p>
+    <content><![CDATA[<h1 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h1><p>With automation, configuration software, DCS, PLCs, and other industrial control tech moving fast, monitoring software built on configuration platforms has become standard in industrial control. This project is a monitoring and control system for an evaporator, built to make production more efficient and keep it safe.</p>
+<p>I built it with Siemens WinCC, a configuration platform that makes it easy to put together operator screens, monitoring views, alarm screens, real-time and historical trend charts, and printable reports. WinCC runs on the host computer and talks to the PLC that drives the equipment on site.</p>
+<p>Here&#39;s what the system does:</p>
+<ul>
+<li>Shows the falling film evaporator process live, with dynamic displays and on-screen controls.</li>
+<li>Lets operators run on-site equipment remotely and see the status of each device.</li>
+<li>Plots pressure over time.</li>
+<li>Logs operator sign-ins.</li>
+<li>Exports alarm history, data logs, and other records from the database.</li>
+</ul>
+<p>With user permissions, alarms, and a clean interface, it takes a lot of manual work off the operators and helps the plant run more efficiently.</p>
+<h1 id="Software"><a href="#Software" class="headerlink" title="Software"></a>Software</h1><p>The project was done in Perth, Australia, and the system was used to produce concentrated carrot juice.</p>
 <p><img src="index.png" alt=""></p>
-<p>This project uses PID-controller to control the pressure, flow rate and temperature.</p>
+<p>Pressure, flow rate, and temperature are each controlled by PID loops.</p>
 <p><img src="facility.png" alt=""></p>
 <p><img src="alarm.png" alt=""></p>
 <p><img src="evaporaters.png" alt=""></p>
-<p><img src="evaporater.jpg" alt=""></p>
-]]></content>
+<p><img src="evaporater.jpg" alt=""></p>]]></content>
       <categories>
         <category>project</category>
       </categories>
@@ -3184,13 +3190,12 @@ _   底线
   <entry>
     <title>Freescale Smart Car Race</title>
     <url>/blog/Freescale-smart-car/</url>
-    <content><![CDATA[<h1 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h1><p>The Freescale Cup, formerly known as the Smart Car Race, began in 2003 when Korea’s Hanyang University hosted 80 teams of students. Since that modest origin, the annual event has expanded throughout North America, Europe, China, India, Malaysia and Latin America, impacting more than 15,000 students at more than 500 schools.</p>
-<p>The competition requires student teams to build, program and race a model car around a track for speed, with victory going to the fastest car that completes the course without derailing. The creation of each autonomous car requires embedded software programming and basic circuit creation, using Freescale parts included in the entry kit; student-developed motor control hardware and software, to propel and steer the intelligent vehicle; and a student-developed camera interface, to navigate the vehicle through the race.</p>
-<p>In 2010, I became a member of the team of Southeast University, China. And in 2011, I became the team leader and won the <code>1st prize</code> of 7th Freescale Cup National University Students Car Race of Camera group.</p>
-<h1 id="Car-model"><a href="#Car-model" class="headerlink" title="Car model"></a>Car model</h1><p>I am in charge of the circuit board design and the software programming. I designed the base algorithm to detect the roads and my team members helped me to debug the PID-control variables.</p>
+    <content><![CDATA[<h1 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h1><p>The Freescale Cup (originally called the Smart Car Race) started in 2003 at Hanyang University in Korea with 80 student teams. It has since grown into an annual event across North America, Europe, China, India, Malaysia, and Latin America, with more than 15,000 students from over 500 schools taking part.</p>
+<p>The idea is simple: build a small autonomous car, program it, and race it around a track. The fastest car that finishes without leaving the track wins. Every team starts from a kit of Freescale parts, then designs its own motor control hardware and software to drive and steer the car, plus a camera interface so the car can see the track and find its way around.</p>
+<p>I joined the Southeast University (China) team in 2010. In 2011 I took over as team leader, and we won <code>1st prize</code> in the camera group at the 7th Freescale Cup National University Students Smart Car Race.</p>
+<h1 id="The-Car"><a href="#The-Car" class="headerlink" title="The Car"></a>The Car</h1><p>I handled the circuit board design and the software. I wrote the core track-detection algorithm, and my teammates helped tune the PID control parameters.</p>
 <p><img src="model.png" alt="car"></p>
-<p><img src="smart_car.gif" alt="video"></p>
-]]></content>
+<p><img src="smart_car.gif" alt="video"></p>]]></content>
       <categories>
         <category>project</category>
       </categories>
